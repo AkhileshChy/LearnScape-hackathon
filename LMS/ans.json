@@ -1,0 +1,145 @@
+{
+    "topic": "DSA",
+    "questions": [
+        {
+            "question_id": "1",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "Which data structure is used to implement recursion?",
+            "options": [
+                "Array",
+                "Linked List",
+                "Stack",
+                "Queue"
+            ],
+            "answer": "Stack",
+            "explanation": "A stack is used to implement recursion because it follows the Last-In-First-Out (LIFO) principle, which is similar to the recursive call stack."
+        },
+        {
+            "question_id": "2",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the primary function of a stack in recursion?",
+            "options": [
+                "To store the base case",
+                "To store the recursive calls",
+                "To store the function parameters",
+                "To store the return values"
+            ],
+            "answer": "To store the recursive calls",
+            "explanation": "A stack is used to store the recursive calls, allowing the function to keep track of the current state and return to the previous state when the recursive call is completed."
+        },
+        {
+            "question_id": "3",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the time complexity of a recursive function that uses a stack to store the recursive calls?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n^2)"
+            ],
+            "answer": "O(n)",
+            "explanation": "The time complexity of a recursive function that uses a stack to store the recursive calls is O(n), where n is the number of recursive calls."
+        },
+        {
+            "question_id": "4",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the primary advantage of using a stack to implement recursion?",
+            "options": [
+                "Efficient use of memory",
+                "Fast execution time",
+                "Easy to implement",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "explanation": "Using a stack to implement recursion has several advantages, including efficient use of memory, fast execution time, and ease of implementation."
+        },
+        {
+            "question_id": "5",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the primary disadvantage of using a stack to implement recursion?",
+            "options": [
+                "Inefficient use of memory",
+                "Slow execution time",
+                "Difficult to implement",
+                "Stack overflow"
+            ],
+            "answer": "Stack overflow",
+            "explanation": "The primary disadvantage of using a stack to implement recursion is the risk of stack overflow, which occurs when the stack is full and cannot accommodate additional recursive calls."
+        },
+        {
+            "question_id": "6",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the purpose of the base case in a recursive function?",
+            "options": [
+                "To start the recursion",
+                "To end the recursion",
+                "To store the recursive calls",
+                "To return the result"
+            ],
+            "answer": "To end the recursion",
+            "explanation": "The base case is used to end the recursion by providing a condition that stops the recursive calls."
+        },
+        {
+            "question_id": "7",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the difference between a recursive function and an iterative function?",
+            "options": [
+                "Recursive functions use a stack, while iterative functions use a loop",
+                "Recursive functions use a loop, while iterative functions use a stack",
+                "Recursive functions are faster, while iterative functions are slower",
+                "Recursive functions are slower, while iterative functions are faster"
+            ],
+            "answer": "Recursive functions use a stack, while iterative functions use a loop",
+            "explanation": "The primary difference between a recursive function and an iterative function is that recursive functions use a stack to store the recursive calls, while iterative functions use a loop to iterate over the data."
+        },
+        {
+            "question_id": "8",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the purpose of the recursive call in a recursive function?",
+            "options": [
+                "To start the recursion",
+                "To end the recursion",
+                "To store the recursive calls",
+                "To return the result"
+            ],
+            "answer": "To start the recursion",
+            "explanation": "The recursive call is used to start the recursion by calling the function again with a smaller input or a modified input."
+        },
+        {
+            "question_id": "9",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the time complexity of a recursive function that uses a linked list to store the recursive calls?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n^2)"
+            ],
+            "answer": "O(n)",
+            "explanation": "The time complexity of a recursive function that uses a linked list to store the recursive calls is O(n), where n is the number of recursive calls."
+        },
+        {
+            "question_id": "10",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the primary advantage of using a linked list to implement recursion?",
+            "options": [
+                "Efficient use of memory",
+                "Fast execution time",
+                "Easy to implement",
+                "All of the above"
+            ],
+            "answer": "Efficient use of memory",
+            "explanation": "Using a linked list to implement recursion has several advantages, including efficient use of memory, fast execution time, and ease of implementation."
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+Here are 10 questions generated based on the topics where the user is lagging:
+
+```
+{
+    "topic": "DSA",
+    "questions": [
+        {
+            "question_id": "1",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the time complexity of accessing an element in a linked list by index?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n^2)"
+            ],
+            "answer": "O(n)",
+            "explanation": "Linked lists do not allow direct access to elements using their index, resulting in linear time complexity, O(n)."
+        },
+        {
+            "question_id": "2",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "Which of the following techniques is used to avoid overlapping subproblems in dynamic programming?",
+            "options": [
+                "Memoization",
+                "Tabulation",
+                "Recursion",
+                "Backtracking"
+            ],
+            "answer": "Memoization",
+            "explanation": "Memoization is a technique used to store the results of expensive function calls and reuse them to avoid overlapping subproblems in dynamic programming."
+        },
+        {
+            "question_id": "3",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "Which data structure is best suited for implementing a FIFO (First-In-First-Out) mechanism?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Linked List",
+                "Array"
+            ],
+            "answer": "Queue",
+            "explanation": "Queues are best suited for implementing a FIFO mechanism, where elements are added to the end and removed from the front."
+        },
+        {
+            "question_id": "4",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the average-case time complexity of Quick Sort?",
+            "options": [
+                "O(n log n)",
+                "O(n^2)",
+                "O(n)",
+                "O(log n)"
+            ],
+            "answer": "O(n log n)",
+            "explanation": "The average-case time complexity of Quick Sort is O(n log n), although it can be O(n^2) in the worst case."
+        },
+        {
+            "question_id": "5",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the name of the graph in which all vertices are connected with each other?",
+            "options": [
+                "Complete Graph",
+                "Cycle Graph",
+                "Tree Graph",
+                "Directed Graph"
+            ],
+            "answer": "Complete Graph",
+            "explanation": "A complete graph is a graph in which all vertices are connected with each other."
+        },
+        {
+            "question_id": "6",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the property of a max-heap?",
+            "options": [
+                "Parent node is always less than or equal to its child nodes",
+                "Parent node is always greater than or equal to its child nodes",
+                "Parent node is always equal to its child nodes",
+                "Parent node is always smaller than its child nodes"
+            ],
+            "answer": "Parent node is always greater than or equal to its child nodes",
+            "explanation": "In a max-heap, the parent node is always greater than or equal to its child nodes."
+        },
+        {
+            "question_id": "7",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "Which algorithm is used to find the shortest path in a graph with negative edge weights?",
+            "options": [
+                "Dijkstra's Algorithm",
+                "Bellman-Ford Algorithm",
+                "Floyd-Warshall Algorithm",
+                "Topological Sort"
+            ],
+            "answer": "Bellman-Ford Algorithm",
+            "explanation": "Bellman-Ford Algorithm is used to find the shortest path in a graph with negative edge weights."
+        },
+        {
+            "question_id": "8",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the name of the path that visits every vertex exactly once in graph theory?",
+            "options": [
+                "Hamiltonian Path",
+                "Eulerian Path",
+                "Cycle Path",
+                "Tree Path"
+            ],
+            "answer": "Hamiltonian Path",
+            "explanation": "A Hamiltonian path is a path that visits every vertex exactly once in graph theory."
+        },
+        {
+            "question_id": "9",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the best case time complexity of Merge Sort?",
+            "options": [
+                "O(n log n)",
+                "O(n^2)",
+                "O(n)",
+                "O(log n)"
+            ],
+            "answer": "O(n log n)",
+            "explanation": "The best case time complexity of Merge Sort is O(n log n), which is also the average and worst case time complexity."
+        },
+        {
+            "question_id": "10",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the name of the tree where each parent node can have at most two children?",
+            "options": [
+                "Binary Tree",
+                "Binary Search Tree",
+                "AVL Tree",
+                "Heap"
+            ],
+            "answer": "Binary Tree",
+            "explanation": "A binary tree is a tree where each parent node can have at most two children."
+        }
+    ]
+}
+```
